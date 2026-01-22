@@ -1,5 +1,11 @@
+resource "random_string" "suffix" {
+  length  = 6
+  special = false
+  upper   = false
+}
+
 resource "aws_s3_bucket" "storage_bucket" {
-  bucket = var.resource_name
+  bucket = "${var.resource_name}-${random_string.suffix.result}"
   force_destroy = true
 }
 
