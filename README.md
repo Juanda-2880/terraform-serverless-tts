@@ -18,6 +18,10 @@ All cloud resources are provisioned using **Terraform (Infrastructure as Code)**
 
 The solution follows a fully managed, event-driven serverless architecture:
 
+
+<img width="1390" height="628" alt="Blank diagram (2)" src="https://github.com/user-attachments/assets/fc4cdea5-97c4-4fec-a868-6bebfa3c4660" />
+
+
 1. **Invocation**
    A user triggers the Lambda function by providing a JSON payload containing the text to be synthesized.
 
