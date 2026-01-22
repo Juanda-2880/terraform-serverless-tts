@@ -3,3 +3,9 @@ variable "region" {
     type        = string
     default     = "us-east-2"
 }
+
+variable "resource_name" {
+    description = "Resources Name"
+    type        = string
+    default     = "serverless-tts"
+}
