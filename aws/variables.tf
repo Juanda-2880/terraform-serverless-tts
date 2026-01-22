@@ -7,5 +7,5 @@ variable "region" {
 variable "resource_name" {
     description = "Resources Name"
     type        = string
-    default     = "serverless-tts"
+    default     = "serverless-tts-polly-demo-2880"
 }
